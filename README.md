@@ -44,27 +44,27 @@ Built with Python and Pygame, this project is designed to create a unique visual
 📦 Installation
 
 Clone the repository:
-
+```
 git clone https://github.com/Marz57/typography-lyrics.git
-
+```
 Navigate into the project directory:
-
+```
 cd typography-lyrics
-
+```
 Install the required dependency:
-
+```
 pip install pygame
-
+```
 Alternatively, you can use Pygame Community Edition:
-
+```
 pip install pygame-ce
-
+```
 ▶️ Usage
 
 Run the application:
-
+bash```
 python3 cine.py
-
+```
 Make sure the following files are located in the same directory:
 
 typography-lyrics/
