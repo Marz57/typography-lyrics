@@ -62,7 +62,7 @@ pip install pygame-ce
 ▶️ Usage
 
 Run the application:
-bash```
+```
 python3 cine.py
 ```
 Make sure the following files are located in the same directory:
