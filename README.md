@@ -105,24 +105,27 @@ Timestamp format:
 
 When every lyric line has a valid timestamp, the application automatically switches to timestamp-based playback.
 
-⚙️ Configuration
 
-You can customize the visualizer directly inside "cine.py".
+## ⚙️ Configuration
 
-Variable| Description
-"AUDIO_FILE"| Background music filename
-"CODIFY"| Enable or disable automatic code conversion
-"TYPE_SPEED"| Typing speed without timestamps
-"LINE_PAUSE"| Delay between lyric lines
-"LOOP"| Automatically restart playback
-"WINDOW_SIZE"| Initial window resolution
-"FPS"| Target frame rate
-"CINEMATIC"| Enable or disable visual effects
+Customize the visualizer directly inside `cine.py`.
 
-Cinematic Effects
+| Variable | Description |
+|---|---|
+| `AUDIO_FILE` | Background music filename |
+| `CODIFY` | Enable or disable code conversion |
+| `TYPE_SPEED` | Typing speed |
+| `LINE_PAUSE` | Delay between lyric lines |
+| `LOOP` | Automatically restart playback |
+| `WINDOW_SIZE` | Initial window resolution |
+| `FPS` | Target frame rate |
+| `CINEMATIC` | Enable or disable visual effects |
 
-The "CINEMATIC" configuration allows individual effects to be enabled or disabled:
+### Cinematic Effects
 
+Customize individual visual effects:
+
+```python
 CINEMATIC = {
     "glow": True,
     "reflection": True,
@@ -133,41 +136,43 @@ CINEMATIC = {
     "aberration": True,
     "shake": True,
 }
+```
 
-Set any effect to "False" to disable it.
+Set an effect to `False` to disable it.
 
-⌨️ Keyboard Controls
+## ⌨️ Keyboard Controls
 
-Key| Action
-"SPACE"| Pause / Resume
-"R"| Restart playback
-"F"| Toggle fullscreen
-"ESC"| Exit application
+| Key | Action |
+|---|---|
+| `SPACE` | Pause / Resume |
+| `R` | Restart playback |
+| `F` | Toggle fullscreen |
+| `ESC` | Exit application |
 
-🎨 Technology Stack
+## 🎨 Technology Stack
 
-- Python – Core programming language.
-- Pygame – Graphics rendering, animation, window management, and audio playback.
-- FFmpeg – Optional audio format conversion.
+- **Python** – Core programming language.
+- **Pygame** – Graphics rendering, animation, and audio playback.
+- **FFmpeg** – Optional audio conversion.
 
+## 📁 Project Structure
 
-
-📁 Project Structure
-
+```text
 typography-lyrics/
-│
-├── cine.py          # Main cinematic lyric visualizer
-├── lirik.txt        # Lyrics and timestamps
-├── lagu.mp3         # Background audio
-├── lagu_conv.ogg    # Converted audio (optional)
-└── README.md        # Project documentation
+├── .gitignore
+├── cine.py
+├── lirik.txt
+├── lagu.mp3
+├── lagu_conv.ogg
+└── README.md
+```
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Official Marz57
+**Official Marz57**
 
-- GitHub: "@Marz57" (https://github.com/Marz57)
-- TikTOk: @marz.57 (https://tiktok.com/@marz.57)
+- GitHub: [@Marz57](https://github.com/Marz57)
+- TikTok: [@marz.57](https://tiktok.com/@marz.57)
 
 ---
 
