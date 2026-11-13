@@ -150,6 +150,8 @@ Key| Action
 - Pygame – Graphics rendering, animation, window management, and audio playback.
 - FFmpeg – Optional audio format conversion.
 
+
+
 📁 Project Structure
 
 typography-lyrics/
@@ -165,6 +167,7 @@ typography-lyrics/
 Official Marz57
 
 - GitHub: "@Marz57" (https://github.com/Marz57)
+- TikTOk: @marz.57 (https://tiktok.com/@marz.57)
 
 ---
 
