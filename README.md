@@ -44,82 +44,96 @@ Built with Python and Pygame, this project is designed to create a unique visual
 📦 Installation
 
 Clone the repository:
+
 ```
 git clone https://github.com/Marz57/typography-lyrics.git
 ```
+
 Navigate into the project directory:
+
 ```
 cd typography-lyrics
 ```
+
 Install the required dependency:
+
 ```
 pip install pygame
 ```
+
 Alternatively, you can use Pygame Community Edition:
+
 ```
 pip install pygame-ce
 ```
+
 ▶️ Usage
 
 Run the application:
+
 ```
-python3 cine.py
+python3 cine.py -typ 1 (bisa di coba di angka 1 sampai 5)
 ```
+
+---
+
 Make sure the following files are located in the same directory:
 
 typography-lyrics/
+
 ├── cine.py
+
 ├── lirik.txt
+
 ├── lagu.mp3
+
 └── README.md
+
+---
 
 The application will automatically load the lyrics and audio file.
 
-🎵 Customizing Lyrics
+## 🎵 Customizing Lyrics
 
 Edit "lirik.txt" to use your own lyrics.
 
-Without timestamps
-
-Simply write each lyric line separately:
-
-Koyo ngene
-Yen nandhang loro asmoro
-Jroning nala
-Dahat rasaku
-Sesandhing marang sliramu
-
-With timestamps
+#### With timestamps
 
 You can synchronize lyrics with music using LRC-style timestamps:
 
-[00:01] Koyo ngene
-[00:03] Yen nandhang loro asmoro
-[00:08] Jroning nala
-[00:16] Dahat rasaku
-[00:18] Sesandhing marang sliramu
+```
+[00:01] koyo Ngene
+[00:03] yen Nandhang loro asmoro
+[00:9.31] jroning Nala
+[00:12.22] mangambar arum puspito
+[00:18.44] dahat Rasaku
+[00:20] sesandhing marang sliramu
+[00:25.55] wong Bagus
+[00:28] memanike Jantungku
+[00:35.45] memanike Jantungku
+[00:42] Created By Official Marz57
+```
 
-Timestamp format:
+### Timestamp format:
 
 [mm:ss.xx] Lyrics
 
 When every lyric line has a valid timestamp, the application automatically switches to timestamp-based playback.
 
-
 ## ⚙️ Configuration
 
 Customize the visualizer directly inside `cine.py`.
 
-| Variable | Description |
-|---|---|
-| `AUDIO_FILE` | Background music filename |
-| `CODIFY` | Enable or disable code conversion |
-| `TYPE_SPEED` | Typing speed |
-| `LINE_PAUSE` | Delay between lyric lines |
-| `LOOP` | Automatically restart playback |
-| `WINDOW_SIZE` | Initial window resolution |
-| `FPS` | Target frame rate |
-| `CINEMATIC` | Enable or disable visual effects |
+| Variable      | Description                       |
+| ------------- | --------------------------------- |
+| `AUDIO_FILE`  | Background music filename         |
+| `CODIFY`      | Enable or disable code conversion |
+| `TYPE_SPEED`  | Typing speed                      |
+| `LINE_PAUSE`  | Delay between lyric lines         |
+| `LOOP`        | Automatically restart playback    |
+| `WINDOW_SIZE` | Initial window resolution         |
+| `FPS`         | Target frame rate                 |
+| `CINEMATIC`   | Enable or disable visual effects  |
 
 ### Cinematic Effects
 
@@ -142,12 +156,12 @@ Set an effect to `False` to disable it.
 
 ## ⌨️ Keyboard Controls
 
-| Key | Action |
-|---|---|
-| `SPACE` | Pause / Resume |
-| `R` | Restart playback |
-| `F` | Toggle fullscreen |
-| `ESC` | Exit application |
+| Key     | Action            |
+| ------- | ----------------- |
+| `SPACE` | Pause / Resume    |
+| `R`     | Restart playback  |
+| `F`     | Toggle fullscreen |
+| `ESC`   | Exit application  |
 
 ## 🎨 Technology Stack
 
