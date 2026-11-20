@@ -33,7 +33,7 @@ except ImportError:
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 WINDOW_SIZE = (540, 960)
 FPS = 60
-END_FX = 1.6   # detik: kode latar muncul sekali (fade in -> fade out) pas mau ending
+END_FX = 2.6   # detik: kode latar muncul sekali (fade in -> fade out) pas mau ending
 AUDIO_EXT = (".mp3", ".ogg", ".wav", ".flac", ".m4a", ".opus")
 FX = {"glow": True, "reflection": True, "bokeh": True, "streaks": True,
       "dense_code": True, "aberration": True, "shake": True}
