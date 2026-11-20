@@ -77,6 +77,12 @@ Run the application:
 python3 cine.py -typ 1 (bisa di coba di angka 1 sampai 5)
 ```
 
+or
+
+```
+python3 cine.py -typ 1 -l lirik/werwiar.txt -m musik/werwiar.mp3
+```
+
 ---
 
 Make sure the following files are located in the same directory:
